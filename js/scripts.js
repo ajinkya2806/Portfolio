@@ -33,4 +33,4 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-$('.carousel').carousel()
+
