@@ -239,9 +239,7 @@ a {
   color: rgb(193, 34, 193);
   text-decoration: underline;
 }
-a:hover {
-  color: #974a2d;
-}
+
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
@@ -11715,6 +11713,10 @@ section.resume-section .resume-section-content {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px 0 purple;
 }
 
 .container {
